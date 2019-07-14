@@ -5,7 +5,7 @@ frontend-nanodegree-arcade-game
 
 This project was done as a part of the Udacity Front-End Web Developer Nanodegree Program.
 To the live version of this click,
-
+ https://pikabe.github.io/Responsive-Portfolio-Website/
 Installation
 ---
 To download and view the website,

@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #D8BFD8	;
+  /* background-color: #BC8F8F; */
+  /* height: 100%; */
+}
+
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #2d3c49;
+  margin: 0;
+  padding: 0;
+
+}
+
+picture {
+  align-items: center;
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+}
+
+div,header,footer,section,nav,section,article {
+  box-sizing: border-box;
+
+}
+
+section {
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+footer {
+  justify-content: center;
+}
+
+.header-logo {
+  display: inline-block;
+}
+
+.name-and-description {
+  float: right;
+}
+
+.Featured-work {
+  text-align: center;
+}
+
+.header-container {
+  border-bottom: 6px solid #99004d;
+  background-color: #BC8F8F;
+  justify-content: space-between; /*Display the flex items with space between the lines*/
+}
+
+.container-main {
+  background-color: #DCDCDC ;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
+/* .header_inner_container_two { */
+  /* font-family: Roboto; */
+  /* font-weight: 300; */
+  /* font-size: 3em; */
+  /* margin: 0.75em 0.25em; */
+  /* display: inline-block; */
+  /* color: #2d3c49; */
+  /* position:relative; */
+  /* text-align: left; */
+/* } */

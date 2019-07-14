@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-item {
+  display: flex;
+}
+header {
+  width:100%;
+
+}
+footer {
+  width: 100%;
+}
+
+.header-container {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  transition: 0.5s;
+}
+
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-projects {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+figcaption {
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .name {
+    font-size: 2.5em;
+  }
+
+}
+
+@media screen and (min-width: 650px) {
+  .name {
+    font-size: 3em;
+  }
+
+  img {
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width:950px) {
+  .project-one-container {
+  transition: 0.5s;
+  width: 30%;
+  order: 1;
+  }
+
+  .project-two-container {
+    transition: 0.5s;
+    width: 30%;
+    order: 1;
+
+  }
+
+  .project-three-container {
+    transition: 0.5s;
+    width: 30%;
+    order: 1;
+  }
+
+}
+@media screen and (min-width:1025px){
+
+  .container-main {
+    width: 80%;
+    margin: auto;
+  }
+
+  }
